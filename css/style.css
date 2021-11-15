@@ -41,10 +41,10 @@ header{
 }
 
 .content-image{
-    width: 150px;
+    width: calc(100% / 7);
     height: 150px;
     position: relative;
-    margin-right: 5px;
+    padding: 5px 5px;
 }
 .content-image img{
     width: 100%;
@@ -53,8 +53,8 @@ header{
 
 .content-image p{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 5px;
+    bottom: 5px;
     color: white;
     background-color: lightgray;
     padding: 5px;
